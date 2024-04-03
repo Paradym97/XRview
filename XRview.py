@@ -63,21 +63,6 @@ class XRViewApp:
         self.button_var_frame.grid_columnconfigure(0, weight=1)
         self.button_var_frame.grid_rowconfigure(3, weight=1)
 
-        # # set up the the frame in the var button frame
-        # # set up the var display frame
-        # button_display_frame = ttk.Frame(self.button_var_frame)
-        # button_display_frame.grid(column=0, row=0, pady=10, padx=10, sticky=(tk.N, tk.W, tk.E, tk.S))
-
-        # # set up the var dim frame
-        # button_var_dim_frame = ttk.Frame(self.button_var_frame)
-        # button_var_dim_frame.grid(column=0, row=1, pady=10, padx=10, sticky=(tk.N, tk.W, tk.E, tk.S))
-
-        # # set up the var info frame
-        # var_info_frame = ttk.Frame(self.button_var_frame)
-        # var_info_frame.grid(column=0, row=2, sticky=(tk.W, tk.E, tk.N, tk.S))
-        # var_info_frame.grid_columnconfigure(0, weight=1)
-        # var_info_frame.grid_rowconfigure(0, weight=1)
-
     def put_button_dim(self):
 
         self.dropdown_menu = None
